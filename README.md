@@ -1,6 +1,13 @@
 ## lxbkp
 This is a simple backup script for Linux where you can choose what to backup using a text file and also backup MYSQL Server
 
+## Para os iniciantes
+Para usar este script é necessário dar permissão de execução
+chmox +x lxbkp.sh
+
+Para executar o script
+./lxbkp.sh
+
 ## Criando os diretórios necessários
 Para utilizar este script na configuracao padrão é necessários criar alguns diretórios
 /etc/lxbkp/ = Este diretório é utilizado para salvar arquivos de configuração do script
