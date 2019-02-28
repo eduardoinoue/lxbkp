@@ -28,3 +28,6 @@ password=Senha-do-usuarios
 
 OBS: Protegendo o arquivo
 chmod 600 /etc/lxbkp/config/.my.cnf && sudo chown $USER:nogroup /etc/lxbkp/config/.my.cnf
+
+## Para Facilitar a sua vida para clonar este repositorio use o comando abaixo
+git clone git://github.com/eduardoinoue/lxbkp
