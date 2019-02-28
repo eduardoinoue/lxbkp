@@ -25,3 +25,6 @@ com o seguinte formato
 [mysqldump]
 user=Nome-do-Usuario
 password=Senha-do-usuarios
+
+OBS: Protegendo o arquivo
+chmod 600 /etc/lxbkp/config/.my.cnf && sudo chown $USER:nogroup /etc/lxbkp/config/.my.cnf
